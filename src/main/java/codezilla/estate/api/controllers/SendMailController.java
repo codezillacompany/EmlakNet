@@ -54,10 +54,10 @@ public class SendMailController {
         String content = request.getParameter("icerik");
 
         SimpleMailMessage message =new SimpleMailMessage();
-        message.setFrom("codezillacompany@gmail.com\n");
-        message.setTo("codezillacompany@gmail.com\n");
+        message.setFrom("codezillacompany2@gmail.com\n");
+        message.setTo("codezillacompany2@gmail.com\n");
 
-        String mailSubject= email +" bir mesaj gönderdi.";
+        String mailSubject= email +" Bir mesaj gönderdi.";
         String mailContent = "Gönderen E-mail: " + email +"\n";
         mailContent += "Konu Başlığı  : " + konuBasligi + "\n";
         mailContent += "İçerik : " + content + "\n";
