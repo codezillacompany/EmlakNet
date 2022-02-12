@@ -34,7 +34,7 @@
 
 <div class=" w-25 mx-auto my-5 p-5 ">
     <div>
-        <h2>Reset Your Password</h2>
+        <h2>Şifrenizi Resetleyin</h2>
     </div>
 
     <form th:action="@{/sifremi_unuttumform}" method="post" style="max-width: 350px; margin: 0 auto;">
@@ -43,10 +43,10 @@
             <div>
                 <p>
                     <input type="password" name="password" id="password" class="form-control"
-                           placeholder="Enter your new password" required autofocus />
+                           placeholder="Yeni Şifrenizi Girin" required autofocus />
                 </p>
                 <p>
-                    <input type="password" class="form-control" placeholder="Confirm your new password"
+                    <input type="password" class="form-control" placeholder="Şifrenizi Onaylayın"
                            required oninput="checkPasswordMatch(this);" />
                 </p>
                 <p class="text-center">
