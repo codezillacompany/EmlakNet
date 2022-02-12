@@ -58,10 +58,10 @@ public class ReportController{
         String content = request.getParameter("bildir_icerik");
 
         SimpleMailMessage message =new SimpleMailMessage();
-        message.setFrom("codezillacompany@gmail.com\n");
-        message.setTo("codezillacompany@gmail.com\n");
+        message.setFrom("codezillacompany2@gmail.com\n");
+        message.setTo("codezillacompany2@gmail.com\n");
 
-        String mailSubject= email +" "+ ilanid +"Numaralı ilanı bildirdi ";
+        String mailSubject= email +" "+ ilanid +" Numaralı ilanı bildirdi ";
         String mailContent = "Gönderen E-mail: " + email +"\n";
         mailContent += "İçerik : " + content + "\n" + "İlgili ilanın ID numarası:" + ilanid +"\n" ;
 
